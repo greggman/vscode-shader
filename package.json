@@ -85,7 +85,13 @@
 			{
 				"language": "glsl",
 				"scopeName": "source.glsl",
-				"path": "./syntaxes/glsl.tmLanguage"
+				"path": "./syntaxes/glsl.tmLanguage",
+				"injectTo": [
+					"text.html.markdown"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.block.glsl": "glsl"
+				}
 			},
 			{
 				"language": "cg",
